@@ -44,3 +44,30 @@ El sistema requiere **Python 3.7 o superior**.
 
 1. Clone este repositorio.
 2. Instale las dependencias necesarias:
+3. Ejecute el notebook:
+
+
+## Estructura del Código
+
+- **cargar_datos:** Lectura del dataset CSV.
+- **preprocesar_datos:** Limpieza y conversión de variables.
+- **analizar:** Correlaciones y prueba Chi-cuadrado.
+- **entrenar:** Implementación manual de Regresión Logística.
+- **animar:** Visualización de la evolución del costo.
+- **evaluar:** Matriz de confusión y curva ROC.
+- **visualizar:** Gráficas de resultados.
+
+## Visualizaciones Incluidas
+
+- Distribución de pacientes (sanos vs enfermos)
+- Matriz de correlación
+- Animación del aprendizaje
+- Top 5 features más importantes
+- Matriz de confusión
+- Curva ROC
+- Boxplot de edades
+
+## Conclusiones
+
+La Regresión Logística implementada desde cero alcanzó una precisión del 83.33% y un AUC de 0.928, considerado excepcional. Las variables más importantes fueron el tipo de dolor de pecho y el número de vasos afectados. El modelo fue validado correctamente comparándolo con scikit-learn.
+
